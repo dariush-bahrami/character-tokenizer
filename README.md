@@ -2,7 +2,7 @@
 
 A character tokenizer for Hugging Face Transformers!
 
-*Note: this code is inspired by Hugging Face [CanineTokenizer](https://github.com/huggingface/transformers/blob/v4.23.1/src/transformers/models/canine/tokenization_canine.py#L63)*
+_Note: this code is inspired by Hugging Face [CanineTokenizer](https://github.com/huggingface/transformers/blob/v4.23.1/src/transformers/models/canine/tokenization_canine.py#L63)_
 
 ## Example
 
@@ -10,7 +10,7 @@ A character tokenizer for Hugging Face Transformers!
 import string
 from charactertokenizer import CharacterTokenizer
 
-chars = string.ascii_letters # This character vocab!
+chars = string.ascii_letters # This is character vocab
 model_max_length = 2048
 tokenizer = CharacterTokenizer(chars, model_max_length)
 ```
